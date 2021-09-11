@@ -16,3 +16,12 @@ Limited functionality and not entirely working.
 
 added functionality to write data to SD card if it's inserted and functional.
 added more functionality to calculate values for specific sensors
+
+## asensordisplay.ino v0.3
+
+added display for oil temp based on max6775 thermocouple. Good info available [here](https://electropeak.com/learn/interfacing-max6675-k-type-thermocouple-module-with-arduino/)
+added gps date/time and speed logging.
+displaying speed. on screen
+rotated display to fit the sensor values a little more cleanly.
+can not add much more functionality till more optimisation is complete. nano barely has the program space to handle the amount of code required to do it properly.
+currently it's at 99% program memory & 75% dynamic memory.
