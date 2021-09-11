@@ -11,3 +11,8 @@ screen library can be found [here](https://github.com/DFRobot/DFRobot_GDL)
 
 basic program to display 4 sensors on a 2" display
 Limited functionality and not entirely working.
+
+## asensordisplay.ino v0.2
+
+added functionality to write data to SD card if it's inserted and functional.
+added more functionality to calculate values for specific sensors
