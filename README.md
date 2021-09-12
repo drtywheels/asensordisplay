@@ -25,3 +25,11 @@ displaying speed. on screen
 rotated display to fit the sensor values a little more cleanly.
 can not add much more functionality till more optimisation is complete. nano barely has the program space to handle the amount of code required to do it properly.
 currently it's at 99% program memory & 75% dynamic memory.
+
+## asensordisplay.ino v0.4
+
+added borders to improve look.
+Changed display library to Adafruit_ST7789. Reduces program memory consumption slightly with no adverse affects.
+tested some other fonts but most consume too much progmem to be usable.
+need to optimise writing of gps date/time to file. another library might make that easier.
+need to improve ability to reduce unnecessary screen updates. 
